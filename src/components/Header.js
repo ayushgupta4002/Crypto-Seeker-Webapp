@@ -2,7 +2,7 @@ import React from 'react'
 import { AppBar, Container, Toolbar, Typography, Select } from '@material-ui/core'
 import MenuItem from '@material-ui/core/MenuItem'
 import { makeStyles, createTheme, ThemeProvider } from '@material-ui/core';
-import { Navigate, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { CryptoState } from '../Cryptocontext';
 
 const useStyles = makeStyles((theme) => ({

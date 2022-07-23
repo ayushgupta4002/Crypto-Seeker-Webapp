@@ -1,10 +1,10 @@
 import React from 'react'
 import axios from "axios";
 import { CoinList } from '../../config/api';
-import CryptoContext from '../../Cryptocontext';
+
 import { CryptoState } from '../../Cryptocontext';
 import { useEffect, useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 import {
   Container,
@@ -20,8 +20,7 @@ import {
   TableContainer,
   Table,
   Paper,
-  Dialog,
-  Tab,
+
 } from "@material-ui/core";
 
 function numberWithCommas(x) {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { SingleCoin } from '../config/api'
 import { CryptoState } from '../Cryptocontext'
-import { LinearProgress, makeStyles, TableRow, Typography } from "@material-ui/core";
+import { LinearProgress, makeStyles, Typography } from "@material-ui/core";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";

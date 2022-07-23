@@ -5,8 +5,7 @@ import { Header } from './components/Header'
 import Homepage from './pages/Homepage';
 import Coinpage from './pages/Coinpage';
 import { makeStyles } from '@material-ui/core';
-import Carousel from './components/Banner/Carousel';
-import { CryptoState } from './Cryptocontext';
+
 const useStyles = makeStyles(() => ({
   App: {
     backgroundColor: "#14161a",
